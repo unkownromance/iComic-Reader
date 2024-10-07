@@ -1,0 +1,27 @@
+name: bb_icomic_reader
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  pdfx: ^2.8.0
+  provider: ^6.1.2
+  file_picker: ^8.1.2 
+  epub_view: ^3.2.0 # 添加 EPUB 库
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
